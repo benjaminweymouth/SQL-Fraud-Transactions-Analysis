@@ -73,4 +73,11 @@ CREATE TABLE transaction(
 -- step 2: check that the import worked 
 select * from transaction;
 
+--adding foreign key constraints 
+
+ALTER TABLE credit_card 
+ADD CONSTRAINT fk_credit_card
+FOREIGN KEY (cardholder_id) 
+REFERENCES card_holder (id);
+
 
