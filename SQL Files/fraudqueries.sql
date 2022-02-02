@@ -64,7 +64,7 @@ DROP TABLE IF EXISTS transaction;
 CREATE TABLE transaction(
 	id int PRIMARY KEY NOT NULL,
 	date TIMESTAMP NOT NULL,
-    amount money NOT NULL,
+    amount float NOT NULL,
 	card VARCHAR(30) NOT NULL,
 	id_merchant int NOT NULL
 );
@@ -100,5 +100,24 @@ ALTER TABLE transaction
 ADD CONSTRAINT fk_transaction_card
 FOREIGN KEY (card) 
 REFERENCES credit_card (card);
+
+--find all transactions in the transaction table less that $2.00 
+SELECT *
+FROM transaction
+WHERE amount < 2.00;
+
+-- how many unique cardholder_id are present in the card_holder table? 
+
+SELECT
+	COUNT (DISTINCT id)
+FROM
+	card_holder;
+
+select count(*)
+from card_holder t1 
+inner join credit_card t2 on t1.id = t2.cardholder_id
+inner join transaction t3 on t2.card = t3.card
+WHERE t3.amount < 2.00
+GROUP BY t1.id;
 
 
