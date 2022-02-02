@@ -1,3 +1,8 @@
+
+[![SQL-Fraud-Transactions-Finder](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-/blob/main/Screenshots/credit_card_fraudster.jpg)](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-)
+
+
+
 # SQL-Fraud-Transactions-Finder-
 
 ## Background
