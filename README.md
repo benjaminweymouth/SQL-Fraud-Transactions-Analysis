@@ -19,11 +19,11 @@ Define a database model to store the credit card transactions data and create a 
 
 ## DataSets Used in this Analysis
 
-* [card_holder.csv](Data/card_holder.csv)
-* [credit_card.csv](Data/credit_card.csv)
-* [merchant.csv](Data/merchant.csv)
-* [merchant_category.csv](Data/merchant_category.csv)
-* [transaction.csv](Data/transaction.csv)
+* [card_holder.csv](Datasets/card_holder.csv)
+* [credit_card.csv](Datasets/credit_card.csv)
+* [merchant.csv](Datasets/merchant.csv)
+* [merchant_category.csv](Datasets/merchant_category.csv)
+* [transaction.csv](Datasets/transaction.csv)
 
 ## Instructions
 
