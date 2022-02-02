@@ -59,16 +59,18 @@ CREATE TABLE merchant(
 -- step 2: check that the import worked 
 select * from merchant;
 
-/* creating merchant table*/
+/* creating transaction table*/
 DROP TABLE IF EXISTS transaction;
 CREATE TABLE transaction(
 	id int PRIMARY KEY NOT NULL,
 	date TIMESTAMP NOT NULL,
     amount money NOT NULL,
-	card card VARCHAR(30) NOT NULL,
-	id_merchant int NOT NULL,
+	card VARCHAR(30) NOT NULL,
+	id_merchant int NOT NULL
 );
  
 -- step 1: utilize PgAdmin wizard to import the csv 
 -- step 2: check that the import worked 
-select * from merchant;
+select * from transaction;
+
+
