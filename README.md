@@ -3,7 +3,7 @@
 
 
 
-# SQL-Fraud-Transactions-Finder-
+# SQL Fraud Transactions Finder
 
 ## Background
 
