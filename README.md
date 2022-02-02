@@ -31,7 +31,7 @@ Define a database model to store the credit card transactions data and create a 
 
 Create an entity relationship diagram (ERD) by inspecting the provided CSV files.
 
-[![streamlit run fintech_finder](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-/blob/main/Screenshots/ERD.png)](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-)
+[![SQL-Fraud-Transactions-Finder](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-/blob/main/Screenshots/ERD.png)](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-)
 
 
 
@@ -40,6 +40,20 @@ Create an entity relationship diagram (ERD) by inspecting the provided CSV files
 Using your database model as a blueprint, create a database schema for each of your tables and relationships. Remember to specify data types, primary keys, foreign keys, and any other constraints you defined.
 
 After creating the database schema, import the data from the corresponding CSV files.
+
+[![SQL-Fraud-Transactions-Finder](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-/blob/main/Screenshots/ScreenShot1.PNG)](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-)
+
+[![SQL-Fraud-Transactions-Finder](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-/blob/main/Screenshots/ScreenShot2.PNG)](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-)
+
+[![SQL-Fraud-Transactions-Finder](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-/blob/main/Screenshots/ScreenShot3.PNG)](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-)
+
+[![SQL-Fraud-Transactions-Finder](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-/blob/main/Screenshots/ScreenShot4.PNG)](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-)
+
+[![SQL-Fraud-Transactions-Finder](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-/blob/main/Screenshots/ScreenShot5.PNG)](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-) 
+
+[![SQL-Fraud-Transactions-Finder](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-/blob/main/Screenshots/ScreenShot6.PNG)](https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-) 
+
+
 
 ### Data Analysis
 #### Part 1:
