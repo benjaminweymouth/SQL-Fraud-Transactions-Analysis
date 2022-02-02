@@ -35,7 +35,7 @@ Create an entity relationship diagram (ERD) by inspecting the provided CSV files
 
 
 
-### Data Engineering
+### Data Engineering and Screenshots
 
 Using your database model as a blueprint, create a database schema for each of your tables and relationships. Remember to specify data types, primary keys, foreign keys, and any other constraints you defined.
 
