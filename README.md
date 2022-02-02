@@ -93,20 +93,3 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
 
   * Do you notice any anomalies? Describe your observations and conclusions.
 
-### Challenge
-
-Another approach to identifying fraudulent transactions is to look for outliers in the data. Standard deviation or quartiles are often used to detect outliers.
-
-Use the [challenge starter notebook](Starter_Files/challenge.ipynb) to code two Python functions:
-
-* One that uses standard deviation to identify anomalies for any cardholder.
-
-* Another that uses interquartile range to identify anomalies for any cardholder.
-
-For help with outliers detection, read the following articles:
-
-* [How to Calculate Outliers](https://www.wikihow.com/Calculate-Outliers)
-
-* [Removing Outliers Using Standard Deviation in Python](https://www.kdnuggets.com/2017/02/removing-outliers-standard-deviation-python.html)
-
-* [How to Use Statistics to Identify Outliers in Data](https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/)
