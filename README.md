@@ -58,6 +58,12 @@ After creating the database schema, import the data from the corresponding CSV f
 ### Data Analysis
 #### Part 1:
 
+The Data Analysis can be found in this jupyter notebook. For best results, please download and run the jupyter notebook on your local machine. 
+
+Notebook link: https://github.com/benjaminweymouth/SQL-Fraud-Transactions-Finder-/blob/main/Jupyter%20Notebooks/visual_data_analysis.ipynb
+
+
+
 The CFO of your firm has requested a report to help analyze potential fraudulent transactions. Using your newly created database, generate queries that will discover the information needed to answer the following questions, then use your repository's ReadME file to create a markdown report you can share with the CFO:
 
 * Some fraudsters hack a credit card by making several small transactions (generally less than $2.00), which are typically ignored by cardholders. 
